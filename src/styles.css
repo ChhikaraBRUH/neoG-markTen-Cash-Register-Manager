@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap");
+
+.App {
+	font-family: lato, sans-serif;
+	width: max-content;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 1rem;
+	margin: auto;
+	text-align: center;
+	border-radius: 2rem;
+	background-color: #ffffff;
+	box-shadow: 5px 5px #00000030, -5px -5px #00000030;
+}
+
+h1 {
+	margin: 0rem 0rem 0.5rem 0rem;
+}
+
+hr {
+	margin: 0rem 0rem 0.5rem 0rem;
+}
+
+body {
+	background: #a78bfa;
+	padding-inline-start: 0px;
+	padding-inline-end: 0px;
+}
+
+table {
+	margin: auto;
+	padding: 0.5rem;
+}
+
+tr {
+	text-align: left;
+	background-color: #ede9fe;
+}
+
+.notesValue {
+	padding: 0.5rem 1rem;
+	text-align: left;
+}
+
+.notesNumber {
+	padding: 0.5rem 1rem;
+	text-align: center;
+}
+
+label {
+	font-weight: bold;
+	font-size: 1.1rem;
+	padding: 0rem;
+	margin: 0.5rem 0rem 0rem 0rem;
+}
+
+input {
+	border-radius: 1rem;
+	margin: 0.5rem 0rem;
+	padding: 0.5rem;
+	width: 30%;
+	border-color: #ddd6fe;
+}
+
+#outputText {
+	margin: 0.5rem 0rem 0.5rem 0rem;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+
+img {
+	margin: 1rem 1rem 0rem 1rem;
+	width: 1.8rem;
+}
+
+a {
+	text-decoration: none;
+}
