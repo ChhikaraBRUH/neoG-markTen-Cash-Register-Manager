@@ -56,6 +56,8 @@ export default function App() {
 
 		if (newBillAmtInput === "" || newCashInput === "") {
 			setReturnStatus("");
+		} else if(parseFloat(newBillAmtInput) < 0 || parseFloat(newCashInput)<0){
+			setReturnStatus("Please enter only positive values!!")
 		} else if (newReturnAmt > 0) {
 			availableNotes.map(function (currentNote) {
 				notes[currentNote] = Math.trunc(newReturnAmt / currentNote);
